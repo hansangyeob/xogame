@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBED99E628B733BE00D33E3B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99E528B733BE00D33E3B /* Tests_iOS.swift */; };
+		BBED99E828B733BE00D33E3B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */; };
+		BBED99F228B733BE00D33E3B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99F128B733BE00D33E3B /* Tests_macOS.swift */; };
+		BBED99F428B733BE00D33E3B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */; };
+		BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
+		BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
+		BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
+		BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
+		BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
+		BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBED99E228B733BE00D33E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBED99C828B733BD00D33E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBED99D328B733BE00D33E3B;
+			remoteInfo = "xogame (iOS)";
+		};
+		BBED99EE28B733BE00D33E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBED99C828B733BD00D33E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBED99D928B733BE00D33E3B;
+			remoteInfo = "xogame (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBED99CD28B733BD00D33E3B /* xogameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xogameApp.swift; sourceTree = "<group>"; };
+		BBED99CE28B733BD00D33E3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBED99CF28B733BE00D33E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBED99D428B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99DA28B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99DC28B733BE00D33E3B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99E528B733BE00D33E3B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99F128B733BE00D33E3B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBED99D128B733BE00D33E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99D728B733BE00D33E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99DE28B733BE00D33E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99EA28B733BE00D33E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBED99C728B733BD00D33E3B = {
+			isa = PBXGroup;
+			children = (
+				BBED99CC28B733BD00D33E3B /* Shared */,
+				BBED99DB28B733BE00D33E3B /* macOS */,
+				BBED99E428B733BE00D33E3B /* Tests iOS */,
+				BBED99F028B733BE00D33E3B /* Tests macOS */,
+				BBED99D528B733BE00D33E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBED99CC28B733BD00D33E3B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BBED99CD28B733BD00D33E3B /* xogameApp.swift */,
+				BBED99CE28B733BD00D33E3B /* ContentView.swift */,
+				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BBED99D528B733BE00D33E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBED99D428B733BE00D33E3B /* xogame.app */,
+				BBED99DA28B733BE00D33E3B /* xogame.app */,
+				BBED99E128B733BE00D33E3B /* Tests iOS.xctest */,
+				BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBED99DB28B733BE00D33E3B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BBED99DC28B733BE00D33E3B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BBED99E428B733BE00D33E3B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BBED99E528B733BE00D33E3B /* Tests_iOS.swift */,
+				BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		BBED99F028B733BE00D33E3B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BBED99F128B733BE00D33E3B /* Tests_macOS.swift */,
+				BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBED99D328B733BE00D33E3B /* xogame (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (iOS)" */;
+			buildPhases = (
+				BBED99D028B733BE00D33E3B /* Sources */,
+				BBED99D128B733BE00D33E3B /* Frameworks */,
+				BBED99D228B733BE00D33E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xogame (iOS)";
+			productName = "xogame (iOS)";
+			productReference = BBED99D428B733BE00D33E3B /* xogame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBED99D928B733BE00D33E3B /* xogame (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (macOS)" */;
+			buildPhases = (
+				BBED99D628B733BE00D33E3B /* Sources */,
+				BBED99D728B733BE00D33E3B /* Frameworks */,
+				BBED99D828B733BE00D33E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xogame (macOS)";
+			productName = "xogame (macOS)";
+			productReference = BBED99DA28B733BE00D33E3B /* xogame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBED99E028B733BE00D33E3B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED9A0328B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				BBED99DD28B733BE00D33E3B /* Sources */,
+				BBED99DE28B733BE00D33E3B /* Frameworks */,
+				BBED99DF28B733BE00D33E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBED99E328B733BE00D33E3B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BBED99E128B733BE00D33E3B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BBED99EC28B733BE00D33E3B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED9A0628B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				BBED99E928B733BE00D33E3B /* Sources */,
+				BBED99EA28B733BE00D33E3B /* Frameworks */,
+				BBED99EB28B733BE00D33E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBED99EF28B733BE00D33E3B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBED99C828B733BD00D33E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BBED99D328B733BE00D33E3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BBED99D928B733BE00D33E3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BBED99E028B733BE00D33E3B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BBED99D328B733BE00D33E3B;
+					};
+					BBED99EC28B733BE00D33E3B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BBED99D928B733BE00D33E3B;
+					};
+				};
+			};
+			buildConfigurationList = BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "xogame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBED99C728B733BD00D33E3B;
+			productRefGroup = BBED99D528B733BE00D33E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBED99D328B733BE00D33E3B /* xogame (iOS) */,
+				BBED99D928B733BE00D33E3B /* xogame (macOS) */,
+				BBED99E028B733BE00D33E3B /* Tests iOS */,
+				BBED99EC28B733BE00D33E3B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBED99D228B733BE00D33E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99D828B733BE00D33E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99DF28B733BE00D33E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99EB28B733BE00D33E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBED99D028B733BE00D33E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */,
+				BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99D628B733BE00D33E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */,
+				BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99DD28B733BE00D33E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99E828B733BE00D33E3B /* Tests_iOSLaunchTests.swift in Sources */,
+				BBED99E628B733BE00D33E3B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED99E928B733BE00D33E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED99F428B733BE00D33E3B /* Tests_macOSLaunchTests.swift in Sources */,
+				BBED99F228B733BE00D33E3B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBED99E328B733BE00D33E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBED99D328B733BE00D33E3B /* xogame (iOS) */;
+			targetProxy = BBED99E228B733BE00D33E3B /* PBXContainerItemProxy */;
+		};
+		BBED99EF28B733BE00D33E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBED99D928B733BE00D33E3B /* xogame (macOS) */;
+			targetProxy = BBED99EE28B733BE00D33E3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBED99FB28B733BE00D33E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBED99FC28B733BE00D33E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BBED99FE28B733BE00D33E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
+				PRODUCT_NAME = xogame;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBED99FF28B733BE00D33E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
+				PRODUCT_NAME = xogame;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBED9A0128B733BE00D33E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
+				PRODUCT_NAME = xogame;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBED9A0228B733BE00D33E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
+				PRODUCT_NAME = xogame;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BBED9A0428B733BE00D33E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "xogame (iOS)";
+			};
+			name = Debug;
+		};
+		BBED9A0528B733BE00D33E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "xogame (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBED9A0728B733BE00D33E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "xogame (macOS)";
+			};
+			name = Debug;
+		};
+		BBED9A0828B733BE00D33E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "xogame (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "xogame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED99FB28B733BE00D33E3B /* Debug */,
+				BBED99FC28B733BE00D33E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED99FE28B733BE00D33E3B /* Debug */,
+				BBED99FF28B733BE00D33E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED9A0128B733BE00D33E3B /* Debug */,
+				BBED9A0228B733BE00D33E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED9A0328B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED9A0428B733BE00D33E3B /* Debug */,
+				BBED9A0528B733BE00D33E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED9A0628B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED9A0728B733BE00D33E3B /* Debug */,
+				BBED9A0828B733BE00D33E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBED99C828B733BD00D33E3B /* Project object */;
+}
