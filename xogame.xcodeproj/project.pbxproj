@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBED99E628B733BE00D33E3B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99E528B733BE00D33E3B /* Tests_iOS.swift */; };
-		BBED99E828B733BE00D33E3B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */; };
-		BBED99F228B733BE00D33E3B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99F128B733BE00D33E3B /* Tests_macOS.swift */; };
-		BBED99F428B733BE00D33E3B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */; };
 		BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
 		BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
 		BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
 		BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
 		BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
 		BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
+		BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0928B7348C00D33E3B /* XOButton.swift */; };
+		BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0B28B7400E00D33E3B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +40,10 @@
 		BBED99CF28B733BE00D33E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBED99D428B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99DA28B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99DC28B733BE00D33E3B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99E528B733BE00D33E3B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99F128B733BE00D33E3B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		BBED9A0928B7348C00D33E3B /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
+		BBED9A0B28B7400E00D33E3B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				BBED99CC28B733BD00D33E3B /* Shared */,
-				BBED99DB28B733BE00D33E3B /* macOS */,
-				BBED99E428B733BE00D33E3B /* Tests iOS */,
-				BBED99F028B733BE00D33E3B /* Tests macOS */,
 				BBED99D528B733BE00D33E3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +92,8 @@
 				BBED99CD28B733BD00D33E3B /* xogameApp.swift */,
 				BBED99CE28B733BD00D33E3B /* ContentView.swift */,
 				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
+				BBED9A0928B7348C00D33E3B /* XOButton.swift */,
+				BBED9A0B28B7400E00D33E3B /* Utils.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -113,32 +107,6 @@
 				BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BBED99DB28B733BE00D33E3B /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				BBED99DC28B733BE00D33E3B /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		BBED99E428B733BE00D33E3B /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BBED99E528B733BE00D33E3B /* Tests_iOS.swift */,
-				BBED99E728B733BE00D33E3B /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		BBED99F028B733BE00D33E3B /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				BBED99F128B733BE00D33E3B /* Tests_macOS.swift */,
-				BBED99F328B733BE00D33E3B /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +269,8 @@
 			files = (
 				BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */,
 				BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */,
+				BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */,
+				BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBED99E828B733BE00D33E3B /* Tests_iOSLaunchTests.swift in Sources */,
-				BBED99E628B733BE00D33E3B /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBED99F428B733BE00D33E3B /* Tests_macOSLaunchTests.swift in Sources */,
-				BBED99F228B733BE00D33E3B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
