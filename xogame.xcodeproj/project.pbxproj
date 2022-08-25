@@ -16,6 +16,7 @@
 		BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0928B7348C00D33E3B /* XOButton.swift */; };
 		BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0B28B7400E00D33E3B /* Utils.swift */; };
 		BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0F28B749F400D33E3B /* guideScreen.swift */; };
+		BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1128B74C1600D33E3B /* mainGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED9A0928B7348C00D33E3B /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
 		BBED9A0B28B7400E00D33E3B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guideScreen.swift; sourceTree = "<group>"; };
+		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideScreen.swift; path = ../guideScreen.swift; sourceTree = "<group>"; };
+		BBED9A1128B74C1600D33E3B /* mainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,6 @@
 		BBED99C728B733BD00D33E3B = {
 			isa = PBXGroup;
 			children = (
-				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
 				BBED99CC28B733BD00D33E3B /* Shared */,
 				BBED99D528B733BE00D33E3B /* Products */,
 			);
@@ -97,6 +98,8 @@
 				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
 				BBED9A0928B7348C00D33E3B /* XOButton.swift */,
 				BBED9A0B28B7400E00D33E3B /* Utils.swift */,
+				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
+				BBED9A1128B74C1600D33E3B /* mainGame.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */,
 				BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */,
 				BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */,
+				BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */,
 				BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
