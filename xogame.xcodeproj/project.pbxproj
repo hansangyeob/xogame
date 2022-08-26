@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBBC9AA028B89DA60076D827 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC9A9F28B89DA60076D827 /* timer.swift */; };
+		BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */; };
 		BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
 		BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
 		BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBBC9A9F28B89DA60076D827 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
+		BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 		BBED99CD28B733BD00D33E3B /* xogameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xogameApp.swift; sourceTree = "<group>"; };
 		BBED99CE28B733BD00D33E3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBED99CF28B733BE00D33E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
 				BBED9A1128B74C1600D33E3B /* mainGame.swift */,
 				BBED9A1728B755C000D33E3B /* manageSound.swift */,
+				BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */,
+				BBBC9A9F28B89DA60076D827 /* timer.swift */,
 				BBED9A1928B7592200D33E3B /* soundEffect */,
 			);
 			path = Shared;
@@ -311,6 +317,8 @@
 				BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */,
 				BBED9A1828B755C000D33E3B /* manageSound.swift in Sources */,
 				BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */,
+				BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */,
+				BBBC9AA028B89DA60076D827 /* timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

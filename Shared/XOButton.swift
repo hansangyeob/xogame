@@ -17,7 +17,7 @@ struct XOButton: View {
         ZStack{
             Circle()
                 .frame(width:70,height:70)
-                .foregroundColor(.yellow)
+                .foregroundColor(.red)
             Circle()
                 .frame(width:60,height: 60)
                 .foregroundColor(.white)
