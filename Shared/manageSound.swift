@@ -17,8 +17,7 @@ class SoundManager{
     
     enum soundOption:String{
         case dingSound
-        case doorKnock
-        case Doorknock
+        case changeScreen
         case CorrectSound
         case grindrNotification
     }
@@ -43,9 +42,6 @@ struct manageSound: View {
         VStack{
             Button("1"){
                 SoundManager.instance.playSound(sound: .grindrNotification)
-            }
-            Button("2"){
-                SoundManager.instance.playSound(sound: .doorKnock)
             }
         }
     }

@@ -176,6 +176,7 @@ struct mainGame: View {
                 gameEnded = true
                 isActive = false
                 timeRemaining = defaultTimeRemaining
+                SoundManager.instance.playSound(sound: .changeScreen)
             }
         }
     }

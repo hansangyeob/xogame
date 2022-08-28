@@ -14,10 +14,6 @@ struct CountdownTimer: View {
     
     @State public var timeRemaining:CGFloat = defaultTimeRemaining
     @State public var isActive = false
-//    let defaultTimeRemaining:CGFloat = 5
-//    let lineWidth:CGFloat = 20
-//    let radius:CGFloat = 10
-
 
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     

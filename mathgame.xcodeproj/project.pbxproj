@@ -9,9 +9,8 @@
 /* Begin PBXBuildFile section */
 		BBB0C2E128BB3A55004158F7 /* AnswerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */; };
 		BBB0C2E528BB4A1E004158F7 /* grindrNotification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */; };
-		BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */; };
-		BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
-		BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
+		BBED99F528B733BE00D33E3B /* mathgameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* mathgameApp.swift */; };
+		BBED99F628B733BE00D33E3B /* mathgameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* mathgameApp.swift */; };
 		BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
 		BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
 		BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
@@ -19,9 +18,8 @@
 		BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0F28B749F400D33E3B /* guideScreen.swift */; };
 		BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1128B74C1600D33E3B /* mainGame.swift */; };
 		BBED9A1428B751FA00D33E3B /* soundEffect in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A1328B751FA00D33E3B /* soundEffect */; };
-		BBED9A1828B755C000D33E3B /* manageSoundTestingOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */; };
+		BBED9A1828B755C000D33E3B /* manageSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1728B755C000D33E3B /* manageSound.swift */; };
 		BBED9A2128B75A5200D33E3B /* dingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A2028B75A5200D33E3B /* dingSound.mp3 */; };
-		BBED9A2328B75C5700D33E3B /* Doorknock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A2228B75C5700D33E3B /* Doorknock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,24 +42,19 @@
 /* Begin PBXFileReference section */
 		BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBtn.swift; sourceTree = "<group>"; };
 		BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grindrNotification.mp3; path = "../../../../Downloads/grindr-notification-sound/grindrNotification.mp3"; sourceTree = "<group>"; };
-		BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
-		BBED99CD28B733BD00D33E3B /* xogameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xogameApp.swift; sourceTree = "<group>"; };
+		BBED99CD28B733BD00D33E3B /* mathgameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathgameApp.swift; sourceTree = "<group>"; };
 		BBED99CE28B733BD00D33E3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBED99CF28B733BE00D33E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BBED99D428B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99DA28B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99D428B733BE00D33E3B /* Math Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED99DA28B733BE00D33E3B /* mathgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideScreen.swift; path = ../guideScreen.swift; sourceTree = "<group>"; };
 		BBED9A1128B74C1600D33E3B /* mainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainGame.swift; sourceTree = "<group>"; };
 		BBED9A1328B751FA00D33E3B /* soundEffect */ = {isa = PBXFileReference; lastKnownFileType = folder; name = soundEffect; path = ../soundEffect; sourceTree = "<group>"; };
-		BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageSoundTestingOnly.swift; sourceTree = "<group>"; };
-		BBED9A1A28B7592200D33E3B /* oSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oSound.wav; sourceTree = "<group>"; };
-		BBED9A1B28B7592200D33E3B /* doorKnock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorKnock.mp3; sourceTree = "<group>"; };
-		BBED9A1C28B7592200D33E3B /* xSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xSound.wav; sourceTree = "<group>"; };
+		BBED9A1728B755C000D33E3B /* manageSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageSound.swift; sourceTree = "<group>"; };
 		BBED9A1D28B7592200D33E3B /* changeScreen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = changeScreen.wav; sourceTree = "<group>"; };
 		BBED9A2028B75A5200D33E3B /* dingSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dingSound.mp3; path = ../../../soundEffect/dingSound.mp3; sourceTree = "<group>"; };
-		BBED9A2228B75C5700D33E3B /* Doorknock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Doorknock.mp3; path = "../../../door-knock-sound-effect/Doorknock.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +101,12 @@
 		BBED99CC28B733BD00D33E3B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				BBED99CD28B733BD00D33E3B /* xogameApp.swift */,
+				BBED99CD28B733BD00D33E3B /* mathgameApp.swift */,
 				BBED99CE28B733BD00D33E3B /* ContentView.swift */,
 				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
 				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
 				BBED9A1128B74C1600D33E3B /* mainGame.swift */,
-				BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */,
-				BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */,
+				BBED9A1728B755C000D33E3B /* manageSound.swift */,
 				BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */,
 				BBED9A1928B7592200D33E3B /* soundEffect */,
 			);
@@ -124,8 +116,8 @@
 		BBED99D528B733BE00D33E3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBED99D428B733BE00D33E3B /* xogame.app */,
-				BBED99DA28B733BE00D33E3B /* xogame.app */,
+				BBED99D428B733BE00D33E3B /* Math Me.app */,
+				BBED99DA28B733BE00D33E3B /* mathgame.app */,
 				BBED99E128B733BE00D33E3B /* Tests iOS.xctest */,
 				BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */,
 			);
@@ -136,12 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */,
-				BBED9A1A28B7592200D33E3B /* oSound.wav */,
-				BBED9A1B28B7592200D33E3B /* doorKnock.mp3 */,
-				BBED9A1C28B7592200D33E3B /* xSound.wav */,
 				BBED9A2028B75A5200D33E3B /* dingSound.mp3 */,
 				BBED9A1D28B7592200D33E3B /* changeScreen.wav */,
-				BBED9A2228B75C5700D33E3B /* Doorknock.mp3 */,
 			);
 			path = soundEffect;
 			sourceTree = "<group>";
@@ -149,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBED99D328B733BE00D33E3B /* xogame (iOS) */ = {
+		BBED99D328B733BE00D33E3B /* mathgame (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (iOS)" */;
+			buildConfigurationList = BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "mathgame (iOS)" */;
 			buildPhases = (
 				BBED99D028B733BE00D33E3B /* Sources */,
 				BBED99D128B733BE00D33E3B /* Frameworks */,
@@ -161,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "xogame (iOS)";
+			name = "mathgame (iOS)";
 			productName = "xogame (iOS)";
-			productReference = BBED99D428B733BE00D33E3B /* xogame.app */;
+			productReference = BBED99D428B733BE00D33E3B /* Math Me.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBED99D928B733BE00D33E3B /* xogame (macOS) */ = {
+		BBED99D928B733BE00D33E3B /* mathgame (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (macOS)" */;
+			buildConfigurationList = BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "mathgame (macOS)" */;
 			buildPhases = (
 				BBED99D628B733BE00D33E3B /* Sources */,
 				BBED99D728B733BE00D33E3B /* Frameworks */,
@@ -178,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = "xogame (macOS)";
+			name = "mathgame (macOS)";
 			productName = "xogame (macOS)";
-			productReference = BBED99DA28B733BE00D33E3B /* xogame.app */;
+			productReference = BBED99DA28B733BE00D33E3B /* mathgame.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BBED99E028B733BE00D33E3B /* Tests iOS */ = {
@@ -245,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "xogame" */;
+			buildConfigurationList = BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "mathgame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBED99D328B733BE00D33E3B /* xogame (iOS) */,
-				BBED99D928B733BE00D33E3B /* xogame (macOS) */,
+				BBED99D328B733BE00D33E3B /* mathgame (iOS) */,
+				BBED99D928B733BE00D33E3B /* mathgame (macOS) */,
 				BBED99E028B733BE00D33E3B /* Tests iOS */,
 				BBED99EC28B733BE00D33E3B /* Tests macOS */,
 			);
@@ -271,7 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBED9A2328B75C5700D33E3B /* Doorknock.mp3 in Resources */,
 				BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */,
 				BBED9A1428B751FA00D33E3B /* soundEffect in Resources */,
 				BBED9A2128B75A5200D33E3B /* dingSound.mp3 in Resources */,
@@ -309,11 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */,
-				BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */,
+				BBED99F528B733BE00D33E3B /* mathgameApp.swift in Sources */,
 				BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */,
 				BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */,
-				BBED9A1828B755C000D33E3B /* manageSoundTestingOnly.swift in Sources */,
-				BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */,
+				BBED9A1828B755C000D33E3B /* manageSound.swift in Sources */,
 				BBB0C2E128BB3A55004158F7 /* AnswerBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */,
-				BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */,
+				BBED99F628B733BE00D33E3B /* mathgameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		BBED99E328B733BE00D33E3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBED99D328B733BE00D33E3B /* xogame (iOS) */;
+			target = BBED99D328B733BE00D33E3B /* mathgame (iOS) */;
 			targetProxy = BBED99E228B733BE00D33E3B /* PBXContainerItemProxy */;
 		};
 		BBED99EF28B733BE00D33E3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBED99D928B733BE00D33E3B /* xogame (macOS) */;
+			target = BBED99D928B733BE00D33E3B /* mathgame (macOS) */;
 			targetProxy = BBED99EE28B733BE00D33E3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,8 +472,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
-				PRODUCT_NAME = xogame;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.mathGame";
+				PRODUCT_NAME = "Math Me";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -515,8 +501,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
-				PRODUCT_NAME = xogame;
+				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.mathGame";
+				PRODUCT_NAME = "Math Me";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -544,7 +530,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
-				PRODUCT_NAME = xogame;
+				PRODUCT_NAME = mathgame;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -570,7 +556,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.xogame";
-				PRODUCT_NAME = xogame;
+				PRODUCT_NAME = mathgame;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "xogame" */ = {
+		BBED99CB28B733BD00D33E3B /* Build configuration list for PBXProject "mathgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBED99FB28B733BE00D33E3B /* Debug */,
@@ -664,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (iOS)" */ = {
+		BBED99FD28B733BE00D33E3B /* Build configuration list for PBXNativeTarget "mathgame (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBED99FE28B733BE00D33E3B /* Debug */,
@@ -673,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "xogame (macOS)" */ = {
+		BBED9A0028B733BE00D33E3B /* Build configuration list for PBXNativeTarget "mathgame (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBED9A0128B733BE00D33E3B /* Debug */,
