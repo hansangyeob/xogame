@@ -125,7 +125,6 @@ struct mainGame: View {
                             AnswerBtn(number: choiceArray[index])
                         }.onTapGesture(perform:{
                             isActive.toggle()
-   
                         })
                     }
                 }
@@ -151,7 +150,6 @@ struct mainGame: View {
         }
 
     
-  
 
 
     func answerIsCorrect(answer: Int){
@@ -160,10 +158,11 @@ struct mainGame: View {
             self.highestScore += 1
             SoundManager.instance.playSound(sound: .grindrNotification)
             if score > 5{
-                endGameText = "YOU are pretty SMART!"
+                endGameText = "YOU are pretty SMART! Hightest Score:\(highestScore)"
                 gameEnded = true
                 isActive = false
                 timeRemaining = defaultTimeRemaining
+                
             }
             if (score > highestScore){
                 highestScore = score
@@ -173,7 +172,7 @@ struct mainGame: View {
             self.score -= 1
             SoundManager.instance.playSound(sound: .dingSound)
             if score < -3{
-                endGameText = "YOU are so BAD at this!"
+                endGameText = "YOU are so BAD at this! Hightest Score:\(highestScore)"
                 gameEnded = true
                 isActive = false
                 timeRemaining = defaultTimeRemaining

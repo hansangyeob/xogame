@@ -16,7 +16,6 @@
 		BBED99F828B733BE00D33E3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CE28B733BD00D33E3B /* ContentView.swift */; };
 		BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
 		BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
-		BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0928B7348C00D33E3B /* XOButton.swift */; };
 		BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0F28B749F400D33E3B /* guideScreen.swift */; };
 		BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1128B74C1600D33E3B /* mainGame.swift */; };
 		BBED9A1428B751FA00D33E3B /* soundEffect in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A1328B751FA00D33E3B /* soundEffect */; };
@@ -53,7 +52,6 @@
 		BBED99DA28B733BE00D33E3B /* xogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xogame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED9A0928B7348C00D33E3B /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
 		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideScreen.swift; path = ../guideScreen.swift; sourceTree = "<group>"; };
 		BBED9A1128B74C1600D33E3B /* mainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainGame.swift; sourceTree = "<group>"; };
 		BBED9A1328B751FA00D33E3B /* soundEffect */ = {isa = PBXFileReference; lastKnownFileType = folder; name = soundEffect; path = ../soundEffect; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				BBED99CD28B733BD00D33E3B /* xogameApp.swift */,
 				BBED99CE28B733BD00D33E3B /* ContentView.swift */,
 				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
-				BBED9A0928B7348C00D33E3B /* XOButton.swift */,
 				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
 				BBED9A1128B74C1600D33E3B /* mainGame.swift */,
 				BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */,
@@ -313,7 +310,6 @@
 			files = (
 				BBED99F728B733BE00D33E3B /* ContentView.swift in Sources */,
 				BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */,
-				BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */,
 				BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */,
 				BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */,
 				BBED9A1828B755C000D33E3B /* manageSoundTestingOnly.swift in Sources */,
