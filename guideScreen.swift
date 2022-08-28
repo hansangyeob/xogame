@@ -23,7 +23,7 @@ struct welcomeScreenView: View{
                 HStack{
 
                     if currentPage == 1{
-                        Text("Tic Tac Toe!")
+                        Text("Math Game")
                             .font(.title2)
                             .fontWeight(.semibold)
                             //Letter spacing
@@ -96,17 +96,16 @@ struct guideScreen:View{
         ZStack{
             
             if currentPage == 1{
-                welcomeScreenView(title: "Step 1", detail: "Detail 1")
+                welcomeScreenView(title: "Step 1", detail: "Click play button to start")
                     .transition(.scale)
             }
             if currentPage == 2{
-                welcomeScreenView(title: "Step 2", detail: "Detail 2")
+                welcomeScreenView(title: "Step 2", detail: "The score will decrease if you get wroung answer")
                     .transition(.scale)
             }
             if currentPage == 3{
-                welcomeScreenView(title: "Step 3", detail: "Detail 3")
+                welcomeScreenView(title: "Step 3", detail: "You need to get the 5 score in 20 second!")
                 .transition(.scale)
-
             }
         }
         .overlay(

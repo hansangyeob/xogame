@@ -19,6 +19,8 @@ class SoundManager{
         case dingSound
         case doorKnock
         case Doorknock
+        case CorrectSound
+        case grindrNotification
     }
     
     func playSound(sound: soundOption){
@@ -40,10 +42,10 @@ struct manageSound: View {
     var body: some View {
         VStack{
             Button("1"){
-                SoundManager.instance.playSound(sound: .dingSound)
+                SoundManager.instance.playSound(sound: .grindrNotification)
             }
             Button("2"){
-                SoundManager.instance.playSound(sound: .Doorknock)
+                SoundManager.instance.playSound(sound: .doorKnock)
             }
         }
     }

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBBC9AA028B89DA60076D827 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC9A9F28B89DA60076D827 /* timer.swift */; };
+		BBB0C2E128BB3A55004158F7 /* AnswerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */; };
+		BBB0C2E528BB4A1E004158F7 /* grindrNotification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */; };
 		BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */; };
 		BBED99F528B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
 		BBED99F628B733BE00D33E3B /* xogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED99CD28B733BD00D33E3B /* xogameApp.swift */; };
@@ -16,11 +17,10 @@
 		BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
 		BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED99CF28B733BE00D33E3B /* Assets.xcassets */; };
 		BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0928B7348C00D33E3B /* XOButton.swift */; };
-		BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0B28B7400E00D33E3B /* Utils.swift */; };
 		BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A0F28B749F400D33E3B /* guideScreen.swift */; };
 		BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1128B74C1600D33E3B /* mainGame.swift */; };
 		BBED9A1428B751FA00D33E3B /* soundEffect in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A1328B751FA00D33E3B /* soundEffect */; };
-		BBED9A1828B755C000D33E3B /* manageSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1728B755C000D33E3B /* manageSound.swift */; };
+		BBED9A1828B755C000D33E3B /* manageSoundTestingOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */; };
 		BBED9A2128B75A5200D33E3B /* dingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A2028B75A5200D33E3B /* dingSound.mp3 */; };
 		BBED9A2328B75C5700D33E3B /* Doorknock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A2228B75C5700D33E3B /* Doorknock.mp3 */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BBBC9A9F28B89DA60076D827 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
+		BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBtn.swift; sourceTree = "<group>"; };
+		BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grindrNotification.mp3; path = "../../../../Downloads/grindr-notification-sound/grindrNotification.mp3"; sourceTree = "<group>"; };
 		BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 		BBED99CD28B733BD00D33E3B /* xogameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xogameApp.swift; sourceTree = "<group>"; };
 		BBED99CE28B733BD00D33E3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +54,10 @@
 		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED9A0928B7348C00D33E3B /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
-		BBED9A0B28B7400E00D33E3B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideScreen.swift; path = ../guideScreen.swift; sourceTree = "<group>"; };
 		BBED9A1128B74C1600D33E3B /* mainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainGame.swift; sourceTree = "<group>"; };
 		BBED9A1328B751FA00D33E3B /* soundEffect */ = {isa = PBXFileReference; lastKnownFileType = folder; name = soundEffect; path = ../soundEffect; sourceTree = "<group>"; };
-		BBED9A1728B755C000D33E3B /* manageSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageSound.swift; sourceTree = "<group>"; };
+		BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageSoundTestingOnly.swift; sourceTree = "<group>"; };
 		BBED9A1A28B7592200D33E3B /* oSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oSound.wav; sourceTree = "<group>"; };
 		BBED9A1B28B7592200D33E3B /* doorKnock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorKnock.mp3; sourceTree = "<group>"; };
 		BBED9A1C28B7592200D33E3B /* xSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xSound.wav; sourceTree = "<group>"; };
@@ -114,12 +114,11 @@
 				BBED99CE28B733BD00D33E3B /* ContentView.swift */,
 				BBED99CF28B733BE00D33E3B /* Assets.xcassets */,
 				BBED9A0928B7348C00D33E3B /* XOButton.swift */,
-				BBED9A0B28B7400E00D33E3B /* Utils.swift */,
 				BBED9A0F28B749F400D33E3B /* guideScreen.swift */,
 				BBED9A1128B74C1600D33E3B /* mainGame.swift */,
-				BBED9A1728B755C000D33E3B /* manageSound.swift */,
+				BBED9A1728B755C000D33E3B /* manageSoundTestingOnly.swift */,
 				BBBC9AA128B8A03C0076D827 /* CountdownTimer.swift */,
-				BBBC9A9F28B89DA60076D827 /* timer.swift */,
+				BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */,
 				BBED9A1928B7592200D33E3B /* soundEffect */,
 			);
 			path = Shared;
@@ -139,6 +138,7 @@
 		BBED9A1928B7592200D33E3B /* soundEffect */ = {
 			isa = PBXGroup;
 			children = (
+				BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */,
 				BBED9A1A28B7592200D33E3B /* oSound.wav */,
 				BBED9A1B28B7592200D33E3B /* doorKnock.mp3 */,
 				BBED9A1C28B7592200D33E3B /* xSound.wav */,
@@ -278,6 +278,7 @@
 				BBED99F928B733BE00D33E3B /* Assets.xcassets in Resources */,
 				BBED9A1428B751FA00D33E3B /* soundEffect in Resources */,
 				BBED9A2128B75A5200D33E3B /* dingSound.mp3 in Resources */,
+				BBB0C2E528BB4A1E004158F7 /* grindrNotification.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +316,9 @@
 				BBED9A0A28B7348C00D33E3B /* XOButton.swift in Sources */,
 				BBED9A1028B749F400D33E3B /* guideScreen.swift in Sources */,
 				BBED9A1228B74C1600D33E3B /* mainGame.swift in Sources */,
-				BBED9A1828B755C000D33E3B /* manageSound.swift in Sources */,
-				BBED9A0C28B7400E00D33E3B /* Utils.swift in Sources */,
+				BBED9A1828B755C000D33E3B /* manageSoundTestingOnly.swift in Sources */,
 				BBBC9AA228B8A03C0076D827 /* CountdownTimer.swift in Sources */,
-				BBBC9AA028B89DA60076D827 /* timer.swift in Sources */,
+				BBB0C2E128BB3A55004158F7 /* AnswerBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
