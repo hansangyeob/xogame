@@ -22,7 +22,7 @@ struct mainGame: View {
      @State private var choiceArray : [Int] = [0, 1, 2, 3]
      @State private var firstNumber = 0
      @State private var secondNumber = 0
-     @State private var difficulty = 1000
+     @State private var difficulty = 3000
      @State private var score = 0
      
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -187,7 +187,7 @@ struct mainGame: View {
         secondNumber = Int.random(in: 0...(difficulty/2))
         var answerList = [Int]()
         correctAnswer = firstNumber + secondNumber
-        for i in 0...2 {
+        for i in 0...3 {
             answerList.append(Int.random(in: 0...difficulty))
         }
         answerList.append(correctAnswer)

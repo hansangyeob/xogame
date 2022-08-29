@@ -16,7 +16,7 @@ struct AnswerBtn: View {
         ZStack{
             Text("\(number)")
             .frame(width: 110, height: 110)
-            .font(.system(size: 40, weight: .bold))
+            .font(.system(size: 30, weight: .bold))
             .foregroundColor(Color.white)
             .background(Color.blue)
             .clipShape(Circle())
@@ -28,7 +28,7 @@ struct AnswerBtn: View {
 
 struct AnswerBtn_Previews: PreviewProvider {
     static var previews: some View {
-        AnswerBtn(number: 1000)
+        AnswerBtn(number: 1300)
     }
 }
 }

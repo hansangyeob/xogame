@@ -22,23 +22,6 @@
 		BBED9A2128B75A5200D33E3B /* dingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBED9A2028B75A5200D33E3B /* dingSound.mp3 */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BBED99E228B733BE00D33E3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BBED99C828B733BD00D33E3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BBED99D328B733BE00D33E3B;
-			remoteInfo = "xogame (iOS)";
-		};
-		BBED99EE28B733BE00D33E3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BBED99C828B733BD00D33E3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BBED99D928B733BE00D33E3B;
-			remoteInfo = "xogame (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BBB0C2E028BB3A55004158F7 /* AnswerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBtn.swift; sourceTree = "<group>"; };
 		BBB0C2E428BB4A1E004158F7 /* grindrNotification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grindrNotification.mp3; path = "../../../../Downloads/grindr-notification-sound/grindrNotification.mp3"; sourceTree = "<group>"; };
@@ -47,8 +30,6 @@
 		BBED99CF28B733BE00D33E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBED99D428B733BE00D33E3B /* Math Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED99DA28B733BE00D33E3B /* mathgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99E128B733BE00D33E3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBED9A0F28B749F400D33E3B /* guideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideScreen.swift; path = ../guideScreen.swift; sourceTree = "<group>"; };
 		BBED9A1128B74C1600D33E3B /* mainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainGame.swift; sourceTree = "<group>"; };
 		BBED9A1328B751FA00D33E3B /* soundEffect */ = {isa = PBXFileReference; lastKnownFileType = folder; name = soundEffect; path = ../soundEffect; sourceTree = "<group>"; };
@@ -66,20 +47,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BBED99D728B733BE00D33E3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBED99DE28B733BE00D33E3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBED99EA28B733BE00D33E3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,8 +85,6 @@
 			children = (
 				BBED99D428B733BE00D33E3B /* Math Me.app */,
 				BBED99DA28B733BE00D33E3B /* mathgame.app */,
-				BBED99E128B733BE00D33E3B /* Tests iOS.xctest */,
-				BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,42 +136,6 @@
 			productReference = BBED99DA28B733BE00D33E3B /* mathgame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBED99E028B733BE00D33E3B /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BBED9A0328B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				BBED99DD28B733BE00D33E3B /* Sources */,
-				BBED99DE28B733BE00D33E3B /* Frameworks */,
-				BBED99DF28B733BE00D33E3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BBED99E328B733BE00D33E3B /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = BBED99E128B733BE00D33E3B /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		BBED99EC28B733BE00D33E3B /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BBED9A0628B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				BBED99E928B733BE00D33E3B /* Sources */,
-				BBED99EA28B733BE00D33E3B /* Frameworks */,
-				BBED99EB28B733BE00D33E3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BBED99EF28B733BE00D33E3B /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = BBED99ED28B733BE00D33E3B /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,14 +151,6 @@
 					};
 					BBED99D928B733BE00D33E3B = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					BBED99E028B733BE00D33E3B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = BBED99D328B733BE00D33E3B;
-					};
-					BBED99EC28B733BE00D33E3B = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = BBED99D928B733BE00D33E3B;
 					};
 				};
 			};
@@ -248,8 +169,6 @@
 			targets = (
 				BBED99D328B733BE00D33E3B /* mathgame (iOS) */,
 				BBED99D928B733BE00D33E3B /* mathgame (macOS) */,
-				BBED99E028B733BE00D33E3B /* Tests iOS */,
-				BBED99EC28B733BE00D33E3B /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -271,20 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBED99FA28B733BE00D33E3B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBED99DF28B733BE00D33E3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBED99EB28B733BE00D33E3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,34 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBED99DD28B733BE00D33E3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBED99E928B733BE00D33E3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BBED99E328B733BE00D33E3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BBED99D328B733BE00D33E3B /* mathgame (iOS) */;
-			targetProxy = BBED99E228B733BE00D33E3B /* PBXContainerItemProxy */;
-		};
-		BBED99EF28B733BE00D33E3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BBED99D928B733BE00D33E3B /* mathgame (macOS) */;
-			targetProxy = BBED99EE28B733BE00D33E3B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BBED99FB28B733BE00D33E3B /* Debug */ = {
@@ -563,81 +441,6 @@
 			};
 			name = Release;
 		};
-		BBED9A0428B733BE00D33E3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "xogame (iOS)";
-			};
-			name = Debug;
-		};
-		BBED9A0528B733BE00D33E3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "xogame (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BBED9A0728B733BE00D33E3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "xogame (macOS)";
-			};
-			name = Debug;
-		};
-		BBED9A0828B733BE00D33E3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sangyeobHan-a2.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "xogame (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -664,24 +467,6 @@
 			buildConfigurations = (
 				BBED9A0128B733BE00D33E3B /* Debug */,
 				BBED9A0228B733BE00D33E3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BBED9A0328B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBED9A0428B733BE00D33E3B /* Debug */,
-				BBED9A0528B733BE00D33E3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BBED9A0628B733BE00D33E3B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBED9A0728B733BE00D33E3B /* Debug */,
-				BBED9A0828B733BE00D33E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
